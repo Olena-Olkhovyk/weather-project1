@@ -8,3 +8,60 @@
   max-width: 550px;
   margin: 30px auto;
 }
+h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 100px;
+  margin-bottom: 28px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.percent {
+  color: gray;
+}
+.weather-temperature {
+  display: flex;
+}
+
+.units {
+  position: relative;
+  bottom: -25px;
+}
+#temperature {
+  font-size: 72px;
+}
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+.date-forecast {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 14px;
+}
+.temp-min {
+  opacity: 0.5;
+}
