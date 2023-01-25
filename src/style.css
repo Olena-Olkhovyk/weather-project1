@@ -22,6 +22,7 @@ ul {
 li {
   list-style: none;
   font-size: 20px;
+  font-weight: bold;
   line-height: 20px;
   margin: 0;
   padding: 0;
@@ -39,10 +40,17 @@ li::first-letter {
 .units {
   position: relative;
   bottom: -25px;
+  font-size: 20px;
 }
 #temperature {
-  font-size: 72px;
+  font-size: 76px;
 }
+#temperature,
+.units {
+  position: relative;
+  right: 2rem;
+}
+
 .weather-temperature .active {
   color: black;
   cursor: default;
@@ -68,15 +76,29 @@ li::first-letter {
 img {
   width: 120px;
   height: 120px;
+  display: block;
+  position: relative;
+  right: 2rem;
+}
+
+.d-flex {
 }
 input[type="submit"] {
   background-color: rgba(12, 133, 233, 0.639);
-  color: white;
+  color: rgb(14, 13, 13);
   border: none;
   font-weight: bold;
   font-size: 18px;
-  padding: 7px 30px;
+  padding: 8px 28px;
 }
 input[type="submit"]:hover {
   background-color: rgba(12, 133, 233, 0.7);
+}
+small > a {
+  margin-left: 0.9rem;
+
+  color: black;
+}
+.units > a {
+  font-weight: bold;
 }
