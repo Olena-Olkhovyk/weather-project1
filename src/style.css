@@ -65,3 +65,18 @@ li::first-letter {
 .temp-min {
   opacity: 0.5;
 }
+img {
+  width: 120px;
+  height: 120px;
+}
+input[type="submit"] {
+  background-color: rgba(12, 133, 233, 0.639);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 7px 30px;
+}
+input[type="submit"]:hover {
+  background-color: rgba(12, 133, 233, 0.7);
+}
